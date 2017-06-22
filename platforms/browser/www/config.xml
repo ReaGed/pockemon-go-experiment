@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.quareal.blank" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>MCGL</name>
+    <description>
+        Minecraft Galaxy Forum
+    </description>
+    <author email="GELMESHIK@mcgl.ru" href="http://forum.minecraft-galaxy.ru/profilemain/24325">
+        GELMESHIK
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
+    <allow-navigation href="about:blank" />
+    <preference name="loadUrlTimeoutValue" value="120000" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
+</widget>

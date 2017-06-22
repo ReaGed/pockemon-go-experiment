@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.quareal.blank" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>test</name>
+    <description>
+        
+    </description>
+    <author email="" href="">
+        
+    </author>
+    <content src="index.html" />
+		<feature name="IntentAndNavigationFilter">
+		<param name="ios-package" value="CDVIntentAndNavigationFilter"/>
+		<param name="onload" value="true"/>
+	</feature>
+	<access origin="*" /> 
+	<allow-intent href="*" />
+	<allow-navigation href="*" />
+	<plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" /> 
+	<allow-navigation href="about:blank" />
+	<preference name="loadUrlTimeoutValue" value="120000" />
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+</widget>
